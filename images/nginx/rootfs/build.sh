@@ -189,8 +189,8 @@ get_src 4aca34f324d543754968359672dcf5f856234574ee4da360ce02c778d244572a \
 get_src 095615fe94e64615c4a27f4f4475b91c047cf8d10bc2dbde8d5ba6aa625fc5ab \
         "https://github.com/openresty/lua-resty-string/archive/v0.11.tar.gz"
 
-get_src a77bf0d7cf6a9ba017d0dc973b1a58f13e48242dd3849c5e99c07d250667c44c \
-        "https://github.com/openresty/lua-resty-balancer/archive/v0.02rc4.tar.gz"
+get_src ec274f40e3a153a20c162f0da633a330c3b451a749c5c35013e33d060fc16d5b \
+        "https://github.com/ArchangelSDY/lua-resty-balancer/archive/v0.02rc4-fix-chash.tar.gz"
 
 get_src d81b33129c6fb5203b571fa4d8394823bf473d8872c0357a1d0f14420b1483bd \
         "https://github.com/cloudflare/lua-resty-cookie/archive/v0.1.0.tar.gz"
@@ -259,7 +259,7 @@ make install
 cd "$BUILD_PATH/lua-resty-string-0.11"
 make install
 
-cd "$BUILD_PATH/lua-resty-balancer-0.02rc4"
+cd "$BUILD_PATH/lua-resty-balancer-0.02rc4-fix-chash"
 make all
 make install
 
